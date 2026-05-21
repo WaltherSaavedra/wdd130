@@ -12,13 +12,14 @@ body {
 header {
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 20px 10px;
     text-align: center;
-    font-size: 15rem;
+    font-size: 1.5rem;
 }
 
 main {
-    width: 400px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -43,7 +44,7 @@ section {
     border: 1px solid rgb(0 0 0/10%);
     padding: 10px;
     background-color: #abe;
-    font-size: 9rem;
+    font-size: 5rem;
 }
 
 section p {
