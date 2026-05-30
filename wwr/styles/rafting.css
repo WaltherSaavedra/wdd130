@@ -1,10 +1,12 @@
 :root {
     --primary-color: rgb(0, 174, 255);
     --secondary-color: rgba(192, 176, 176, 0.897);
-    --body-font: arial, helvetica, sans-serif --accent1-color: yellow;
-    --accent2-color: rgb(207, 197, 194);
+    --body-font: Arial, Helvetica, sans-serif;
+
     --accent1-color: rgb(41, 41, 1);
-    --heading-font: "times new roman", "georgia", "serif"
+    --accent2-color: rgb(207, 197, 194);
+
+    --heading-font: "Times New Roman", Georgia, serif;
 }
 
 * {
