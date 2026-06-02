@@ -7,6 +7,24 @@
     --accent2-color: rgb(207, 197, 194);
 
     --heading-font: "Times New Roman", Georgia, serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+section {
+    justify-content: flex-start;
 }
 
 * {

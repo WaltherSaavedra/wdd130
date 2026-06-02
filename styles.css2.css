@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* --- MENÚ DE NAVEGACIÓN (FLEXBOX) --- */
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    /* Distribuye los enlaces uniformemente */
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* --- CONTENEDOR PRINCIPAL (GRID) --- */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* Columna izquierda más angosta, derecha más ancha */
+    gap: 40px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* --- TARJETA IZQUIERDA (PERÚ) --- */
+.left-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+/* Texto "Perú" encima de la imagen */
+.overlay-text {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px 20px;
+    border-radius: 4px;
+}
+
+.caption {
+    margin-top: 15px;
+    font-size: 0.95rem;
+    text-align: justify;
+    color: #444;
+}
+
+/* --- SECCIÓN DERECHA (BIOGRAFÍA) --- */
+.bio-content h1 {
+    color: steelblue;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+/* Contenedor para alinear el texto y la foto de perfil de lado */
+.bio-text-image {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.bio-text-image p {
+    flex: 1;
+    text-align: justify;
+}
+
+.profile-pic {
+    width: 180px;
+    height: auto;
+    border: 4px solid #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* Caja de enlaces/templos inferior */
+.temple-box {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid steelblue;
+}
+
+.temple-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.temple-box li {
+    margin-bottom: 8px;
+}
+
+.temple-box a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    font-size: 0.9rem;
+}
