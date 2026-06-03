@@ -12,13 +12,11 @@ body {
     line-height: 1.6;
 }
 
-/* --- MENÚ DE NAVEGACIÓN (FLEXBOX) --- */
 nav {
     background-color: steelblue;
     padding: 1rem;
     display: flex;
     justify-content: space-around;
-    /* Distribuye los enlaces uniformemente */
     align-items: center;
 }
 
@@ -34,18 +32,15 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* --- CONTENEDOR PRINCIPAL (GRID) --- */
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    /* Columna izquierda más angosta, derecha más ancha */
     gap: 40px;
     max-width: 1200px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
-/* --- TARJETA IZQUIERDA (PERÚ) --- */
 .left-card {
     background-color: #f5f5f5;
     padding: 20px;
@@ -66,7 +61,6 @@ nav a:hover {
     border-radius: 4px;
 }
 
-/* Texto "Perú" encima de la imagen */
 .overlay-text {
     position: absolute;
     top: 15px;
@@ -87,7 +81,6 @@ nav a:hover {
     color: #444;
 }
 
-/* --- SECCIÓN DERECHA (BIOGRAFÍA) --- */
 .bio-content h1 {
     color: steelblue;
     font-size: 2.2rem;
@@ -96,7 +89,6 @@ nav a:hover {
     padding-bottom: 10px;
 }
 
-/* Contenedor para alinear el texto y la foto de perfil de lado */
 .bio-text-image {
     display: flex;
     gap: 20px;
@@ -116,7 +108,6 @@ nav a:hover {
     border-radius: 4px;
 }
 
-/* Caja de enlaces/templos inferior */
 .temple-box {
     margin-top: 30px;
     background-color: #f9f9f9;
@@ -138,7 +129,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* --- PIE DE PÁGINA --- */
 footer {
     text-align: center;
     padding: 20px;
